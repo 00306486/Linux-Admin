@@ -1,0 +1,216 @@
+cis245-ubuserver
+calib02375b0f11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1440
+        inet6 fe80::ecee:eeff:feee:eeee  prefixlen 64  scopeid 0x20<link>
+        ether ee:ee:ee:ee:ee:ee  txqueuelen 0  (Ethernet)
+        RX packets 1883  bytes 167804 (167.8 KB)
+        RX errors 0  dropped 2  overruns 0  frame 0
+        TX packets 2211  bytes 638114 (638.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.153.135  netmask 255.255.255.0  broadcast 192.168.153.255
+        inet6 fe80::20c:29ff:fead:4f3d  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:ad:4f:3d  txqueuelen 1000  (Ethernet)
+        RX packets 3051  bytes 4218471 (4.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 741  bytes 61736 (61.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 463704  bytes 165434916 (165.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 463704  bytes 165434916 (165.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vxlan.calico: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1410
+        inet 10.1.93.128  netmask 255.255.255.255  broadcast 10.1.93.128
+        inet6 fe80::6466:81ff:fe6a:af8f  prefixlen 64  scopeid 0x20<link>
+        ether 66:66:81:6a:af:8f  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 7 overruns 0  carrier 0  collisions 0
+
+nameserver 127.0.0.53
+PING e10994.dscx.akamaiedge.net (104.77.245.23) 56(84) bytes of data.
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=1 ttl=128 time=20.3 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=2 ttl=128 time=27.0 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=3 ttl=128 time=27.5 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=4 ttl=128 time=28.4 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=5 ttl=128 time=16.6 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=6 ttl=128 time=22.3 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=7 ttl=128 time=18.5 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=8 ttl=128 time=23.8 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=9 ttl=128 time=21.7 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=10 ttl=128 time=22.7 ms
+
+--- e10994.dscx.akamaiedge.net ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 16.559/22.858/28.359/3.697 ms
+This script was made by Anthony Rodriguez and was run on:  + date %B %d
+cis245-ubuserver
+calib02375b0f11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1440
+        inet6 fe80::ecee:eeff:feee:eeee  prefixlen 64  scopeid 0x20<link>
+        ether ee:ee:ee:ee:ee:ee  txqueuelen 0  (Ethernet)
+        RX packets 1964  bytes 174950 (174.9 KB)
+        RX errors 0  dropped 2  overruns 0  frame 0
+        TX packets 2313  bytes 662604 (662.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.153.135  netmask 255.255.255.0  broadcast 192.168.153.255
+        inet6 fe80::20c:29ff:fead:4f3d  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:ad:4f:3d  txqueuelen 1000  (Ethernet)
+        RX packets 3069  bytes 4220465 (4.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 759  bytes 63582 (63.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 484949  bytes 172518535 (172.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 484949  bytes 172518535 (172.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vxlan.calico: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1410
+        inet 10.1.93.128  netmask 255.255.255.255  broadcast 10.1.93.128
+        inet6 fe80::6466:81ff:fe6a:af8f  prefixlen 64  scopeid 0x20<link>
+        ether 66:66:81:6a:af:8f  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 7 overruns 0  carrier 0  collisions 0
+
+nameserver 127.0.0.53
+PING e10994.dscx.akamaiedge.net (104.77.245.23) 56(84) bytes of data.
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=1 ttl=128 time=53.5 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=2 ttl=128 time=23.8 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=3 ttl=128 time=21.4 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=4 ttl=128 time=14.8 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=5 ttl=128 time=22.4 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=6 ttl=128 time=26.8 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=7 ttl=128 time=24.6 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=8 ttl=128 time=15.1 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=9 ttl=128 time=25.9 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=10 ttl=128 time=29.8 ms
+
+--- e10994.dscx.akamaiedge.net ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 14.762/25.815/53.531/10.292 ms
+This script was made by Anthony Rodriguez and was run on:  +
+cis245-ubuserver
+calib02375b0f11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1440
+        inet6 fe80::ecee:eeff:feee:eeee  prefixlen 64  scopeid 0x20<link>
+        ether ee:ee:ee:ee:ee:ee  txqueuelen 0  (Ethernet)
+        RX packets 2042  bytes 181785 (181.7 KB)
+        RX errors 0  dropped 2  overruns 0  frame 0
+        TX packets 2408  bytes 691243 (691.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.153.135  netmask 255.255.255.0  broadcast 192.168.153.255
+        inet6 fe80::20c:29ff:fead:4f3d  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:ad:4f:3d  txqueuelen 1000  (Ethernet)
+        RX packets 3084  bytes 4222094 (4.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 773  bytes 64858 (64.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 500841  bytes 178327664 (178.3 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 500841  bytes 178327664 (178.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vxlan.calico: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1410
+        inet 10.1.93.128  netmask 255.255.255.255  broadcast 10.1.93.128
+        inet6 fe80::6466:81ff:fe6a:af8f  prefixlen 64  scopeid 0x20<link>
+        ether 66:66:81:6a:af:8f  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 7 overruns 0  carrier 0  collisions 0
+
+nameserver 127.0.0.53
+PING e10994.dscx.akamaiedge.net (104.77.245.23) 56(84) bytes of data.
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=1 ttl=128 time=26.0 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=2 ttl=128 time=18.1 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=3 ttl=128 time=22.8 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=4 ttl=128 time=22.9 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=5 ttl=128 time=18.1 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=6 ttl=128 time=17.4 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=7 ttl=128 time=21.0 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=8 ttl=128 time=14.0 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=9 ttl=128 time=19.5 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=10 ttl=128 time=15.2 ms
+
+--- e10994.dscx.akamaiedge.net ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 13.970/19.488/25.951/3.515 ms
+This script was made by Anthony Rodriguez and was run on: 
+Mon 03 May 2021 08:30:33 PM UTC
+cis245-ubuserver
+calib02375b0f11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1440
+        inet6 fe80::ecee:eeff:feee:eeee  prefixlen 64  scopeid 0x20<link>
+        ether ee:ee:ee:ee:ee:ee  txqueuelen 0  (Ethernet)
+        RX packets 2247  bytes 199856 (199.8 KB)
+        RX errors 0  dropped 2  overruns 0  frame 0
+        TX packets 2671  bytes 760879 (760.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.153.135  netmask 255.255.255.0  broadcast 192.168.153.255
+        inet6 fe80::20c:29ff:fead:4f3d  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:ad:4f:3d  txqueuelen 1000  (Ethernet)
+        RX packets 3103  bytes 4224176 (4.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 790  bytes 66344 (66.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 550305  bytes 195700378 (195.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 550305  bytes 195700378 (195.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vxlan.calico: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1410
+        inet 10.1.93.128  netmask 255.255.255.255  broadcast 10.1.93.128
+        inet6 fe80::6466:81ff:fe6a:af8f  prefixlen 64  scopeid 0x20<link>
+        ether 66:66:81:6a:af:8f  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 7 overruns 0  carrier 0  collisions 0
+
+nameserver 127.0.0.53
+PING e10994.dscx.akamaiedge.net (104.77.245.23) 56(84) bytes of data.
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=1 ttl=128 time=22.2 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=2 ttl=128 time=19.0 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=3 ttl=128 time=15.8 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=4 ttl=128 time=19.6 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=5 ttl=128 time=19.7 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=6 ttl=128 time=17.1 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=7 ttl=128 time=20.2 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=8 ttl=128 time=28.7 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=9 ttl=128 time=30.5 ms
+64 bytes from a104-77-245-23.deploy.static.akamaitechnologies.com (104.77.245.23): icmp_seq=10 ttl=128 time=23.6 ms
+
+--- e10994.dscx.akamaiedge.net ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 15.820/21.652/30.539/4.529 ms
+__________________________________________________________
+This Script is to look at the network info of the server and test the connection of the server as well!
+This script was made by Anthony Rodriguez and was run on: 
+Mon 03 May 2021 08:37:07 PM UTC
